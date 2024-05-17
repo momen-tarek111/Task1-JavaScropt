@@ -1,0 +1,1035 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    perspective: 1100px
+}
+.header{
+    height: 100px;
+    background-color: rgb(245, 245, 245);
+}
+.header-logo{
+    height: 70px;
+    margin-top: 10px;
+    margin-left:20px ;
+    width: 280px;
+    float: left;
+    cursor: pointer;
+}
+.header-sections{
+    float: left;
+    margin-top: 40px;
+    margin-left: 500px;
+}
+.header-sections li{
+    margin-left: 15px;
+    display: inline-block;
+    font-size:18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header-sections li a{
+    text-decoration: none;
+     color: black;
+}
+.header-sections a:hover{
+    color: skyblue;
+ }
+.header-i{
+    display: inline-block;
+}
+.header-i2{
+    display: block;
+    float: right;
+    font-size: 25px;
+    margin-top: 38px;
+    margin-right: 40px;
+    color: black;
+    cursor: pointer;
+}
+/* /////////////////////////////////////////////////////////////////////////////// */
+.main-samsung{
+   margin: 0 20px;
+}
+.main-samsung-header{
+    width: 100%;
+    overflow: hidden; 
+}
+.samsung-logo{
+    float: left;
+    margin-right: 80px;
+    width: 120px;
+    height: 120px;
+}
+.samsung-phones-p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 45px;
+    float: left;
+}
+
+.samsung-phones{
+    margin: 0 30px;
+}
+/* samsung-phone1 */
+.samsung-phone1{
+    display: inline-block;
+    margin-right: 2%;
+    width: 23.5% ;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s;
+    height: 500px;
+}
+.samsung-phone1-front{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    backface-visibility: hidden;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    height: 100%;
+    border: 2px solid skyblue;
+}
+.samsung-phone1-front-img{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.samsung-phone1-img{
+    width: 100%;
+    height: 100%;
+}
+.samsung-phone1-front-detl{
+    text-align: center;
+    height: 10%;
+    margin-top: 0px;
+}
+.samsung-phone1-front-detl p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.samsung-phone1-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid skyblue;
+    transform: rotateY(180deg);
+    background-color: rgb(244, 244, 244);
+}
+.samsung-phone1:hover{
+    transform: rotateY(180deg);
+}
+.samsung-phone1-back-body {
+    list-style: none;
+    padding: 10px;
+}
+.samsung-phone1-back-body li{
+    height: fit-content;
+    margin-bottom: 10px;
+}
+.samsung-phone1-back-li-h2{
+    font-size: 15px;
+}
+.samsung-phone1-back-li-h2,.samsung-phone1-back-li-p{
+    display:inline-block;
+}
+.samsung-phone1-back-li-p{
+    font-size: 14px;
+}
+.samsung-phone1-back-li-p-more{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+.samsung-phone1-back-li-p-more:hover{
+    text-decoration: underline;
+}
+/* phine2 */
+.samsung-phone2{
+    display: inline-block;
+    margin-right: 2%;
+    width: 23.5% ;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s;
+    height: 500px;
+}
+.samsung-phone2-front{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    backface-visibility: hidden;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    height: 100%;
+    border: 2px solid skyblue;
+}
+.samsung-phone2-front-img{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.samsung-phone2-img{
+    width: 100%;
+    height: 100%;
+}
+.samsung-phone2-front-detl{
+    text-align: center;
+    height: 10%;
+    margin-top: 0px;
+}
+.samsung-phone2-front-detl p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.samsung-phone2-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid skyblue;
+    transform: rotateY(180deg);
+    background-color: rgb(244, 244, 244);
+}
+.samsung-phone2:hover{
+    transform: rotateY(180deg);
+}
+.samsung-phone2-back-body {
+    list-style: none;
+    padding: 10px;
+}
+.samsung-phone2-back-body li{
+    height: fit-content;
+    margin-bottom: 10px;
+}
+.samsung-phone2-back-li-h2{
+    font-size: 15px;
+}
+.samsung-phone2-back-li-h2,.samsung-phone2-back-li-p{
+    display:inline-block;
+}
+.samsung-phone2-back-li-p{
+    font-size: 14px;
+}
+.samsung-phone2-back-li-p-more{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+.samsung-phone2-back-li-p-more:hover{
+    text-decoration: underline;
+}
+/* phone3 */
+.samsung-phone3{
+    display: inline-block;
+    margin-right: 2%;
+    width: 23.5% ;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s;
+    height: 500px;
+}
+.samsung-phone3-front{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    backface-visibility: hidden;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    height: 100%;
+    border: 2px solid skyblue;
+}
+.samsung-phone3-front-img{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.samsung-phone3-img{
+    width: 100%;
+    height: 100%;
+}
+.samsung-phone3-front-detl{
+    text-align: center;
+    height: 10%;
+    margin-top: 0px;
+}
+.samsung-phone3-front-detl p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.samsung-phone3-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid skyblue;
+    transform: rotateY(180deg);
+    background-color: rgb(244, 244, 244);
+}
+.samsung-phone3:hover{
+    transform: rotateY(180deg);
+}
+.samsung-phone3-back-body {
+    list-style: none;
+    padding: 10px;
+}
+.samsung-phone3-back-body li{
+    height: fit-content;
+    margin-bottom: 6px;
+}
+.samsung-phone3-back-li-h2{
+    font-size: 15px;
+}
+.samsung-phone3-back-li-h2,.samsung-phone3-back-li-p{
+    display:inline-block;
+}
+.samsung-phone3-back-li-p{
+    font-size: 14px;
+}
+.samsung-phone3-back-li-p-more{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+.samsung-phone3-back-li-p-more:hover{
+    text-decoration: underline;
+}
+/* phone4 */
+.samsung-phone4{
+    display: inline-block;
+    width: 22.4% ;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 2s;
+    height: 500px;
+}
+.samsung-phone4-front{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    backface-visibility: hidden;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    height: 100%;
+    border: 2px solid skyblue;
+}
+.samsung-phone4-front-img{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.samsung-phone4-img{
+    width: 100%;
+    height: 100%;
+}
+.samsung-phone4-front-detl{
+    text-align: center;
+    height: 10%;
+    margin-top: 0px;
+}
+.samsung-phone4-front-detl p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.samsung-phone4-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid skyblue;
+    transform: rotateY(180deg);
+    background-color: rgb(244, 244, 244);
+}
+.samsung-phone4:hover{
+    transform: rotateY(180deg);
+}
+.samsung-phone4-back-body {
+    list-style: none;
+    padding: 10px;
+}
+.samsung-phone4-back-body li{
+    height: fit-content;
+    margin-bottom: 10px;
+}
+.samsung-phone4-back-li-h2{
+    font-size: 15px;
+}
+.samsung-phone4-back-li-h2,.samsung-phone4-back-li-p{
+    display:inline-block;
+}
+.samsung-phone4-back-li-p{
+    font-size: 14px;
+}
+.samsung-phone4-back-li-p-more{
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    color: blue;
+}
+.samsung-phone4-back-li-p-more:hover{
+    text-decoration: underline;
+}
+/* ////////////////////////////////////////////////////////////////////////// */
+.main-realme{
+    margin: 0 20px;
+ }
+ .main-realme-header{
+     width: 100%;
+     overflow: hidden; 
+ }
+ .realme-logo{
+     float: left;
+     margin-right: 80px;
+     width: 120px;
+     height: 120px;
+ }
+ .realme-phones-p{
+     font-size: 30px;
+     font-weight: bold;
+     margin-top: 45px;
+     float: left;
+ }
+ 
+ .realme-phones{
+     margin: 0 30px;
+ }
+ /* realme-phone1 */
+ .realme-phone1{
+     display: inline-block;
+     margin-right: 2%;
+     width: 23.5% ;
+     position: relative;
+     transform-style: preserve-3d;
+     transition: all 2s;
+     height: 500px;
+ }
+ .realme-phone1-front{
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+     backface-visibility: hidden;
+     height: 100%;
+     background-color: rgb(244, 244, 244);
+     height: 100%;
+     border: 2px solid skyblue;
+ }
+ .realme-phone1-front-img{
+     width: 90%;
+     height: 80%;
+     margin: auto;
+     margin-top: 20px;
+ }
+ .realme-phone1-img{
+     width: 100%;
+     height: 100%;
+ }
+ .realme-phone1-front-detl{
+     text-align: center;
+     height: 10%;
+     margin-top: 0px;
+ }
+ .realme-phone1-front-detl p{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .realme-phone1-back{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border: 2px solid skyblue;
+     transform: rotateY(180deg);
+     background-color: rgb(244, 244, 244);
+ }
+ .realme-phone1:hover{
+     transform: rotateY(180deg);
+ }
+ .realme-phone1-back-body {
+     list-style: none;
+     padding: 10px;
+ }
+ .realme-phone1-back-body li{
+     height: fit-content;
+     margin-bottom: 10px;
+ }
+ .realme-phone1-back-li-h2{
+     font-size: 15px;
+ }
+ .realme-phone1-back-li-h2,.realme-phone1-back-li-p{
+     display:inline-block;
+ }
+ .realme-phone1-back-li-p{
+     font-size: 14px;
+ }
+ .realme-phone1-back-li-p-more{
+     font-size: 25px;
+     font-weight: bold;
+     cursor: pointer;
+     color: blue;
+ }
+ .realme-phone1-back-li-p-more:hover{
+     text-decoration: underline;
+ }
+ /* phine2 */
+ .realme-phone2{
+     display: inline-block;
+     margin-right: 2%;
+     width: 23.5% ;
+     position: relative;
+     transform-style: preserve-3d;
+     transition: all 2s;
+     height: 500px;
+ }
+ .realme-phone2-front{
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+     backface-visibility: hidden;
+     height: 100%;
+     background-color: rgb(244, 244, 244);
+     height: 100%;
+     border: 2px solid skyblue;
+ }
+ .realme-phone2-front-img{
+     width: 90%;
+     height: 80%;
+     margin: auto;
+     margin-top: 20px;
+ }
+ .realme-phone2-img{
+     width: 100%;
+     height: 100%;
+ }
+ .realme-phone2-front-detl{
+     text-align: center;
+     height: 10%;
+     margin-top: 0px;
+ }
+ .realme-phone2-front-detl p{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .realme-phone2-back{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border: 2px solid skyblue;
+     transform: rotateY(180deg);
+     background-color: rgb(244, 244, 244);
+ }
+ .realme-phone2:hover{
+     transform: rotateY(180deg);
+ }
+ .realme-phone2-back-body {
+     list-style: none;
+     padding: 10px;
+ }
+ .realme-phone2-back-body li{
+     height: fit-content;
+     margin-bottom: 10px;
+ }
+ .realme-phone2-back-li-h2{
+     font-size: 15px;
+ }
+ .realme-phone2-back-li-h2,.realme-phone2-back-li-p{
+     display:inline-block;
+ }
+ .realme-phone2-back-li-p{
+     font-size: 14px;
+ }
+ .realme-phone2-back-li-p-more{
+     font-size: 25px;
+     font-weight: bold;
+     cursor: pointer;
+     color: blue;
+ }
+ .realme-phone2-back-li-p-more:hover{
+     text-decoration: underline;
+ }
+ /* phone3 */
+ .realme-phone3{
+     display: inline-block;
+     margin-right: 2%;
+     width: 23.5% ;
+     position: relative;
+     transform-style: preserve-3d;
+     transition: all 2s;
+     height: 500px;
+ }
+ .realme-phone3-front{
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+     backface-visibility: hidden;
+     height: 100%;
+     background-color: rgb(244, 244, 244);
+     height: 100%;
+     border: 2px solid skyblue;
+ }
+ .realme-phone3-front-img{
+     width: 90%;
+     height: 80%;
+     margin: auto;
+     margin-top: 20px;
+ }
+ .realme-phone3-img{
+     width: 100%;
+     height: 100%;
+ }
+ .realme-phone3-front-detl{
+     text-align: center;
+     height: 10%;
+     margin-top: 0px;
+ }
+ .realme-phone3-front-detl p{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .realme-phone3-back{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border: 2px solid skyblue;
+     transform: rotateY(180deg);
+     background-color: rgb(244, 244, 244);
+ }
+ .realme-phone3:hover{
+     transform: rotateY(180deg);
+ }
+ .realme-phone3-back-body {
+     list-style: none;
+     padding: 10px;
+ }
+ .realme-phone3-back-body li{
+     height: fit-content;
+     margin-bottom: 10px;
+ }
+ .realme-phone3-back-li-h2{
+     font-size: 15px;
+ }
+ .realme-phone3-back-li-h2,.realme-phone3-back-li-p{
+     display:inline-block;
+ }
+ .realme-phone3-back-li-p{
+     font-size: 14px;
+ }
+ .realme-phone3-back-li-p-more{
+     font-size: 25px;
+     font-weight: bold;
+     cursor: pointer;
+     color: blue;
+ }
+ .realme-phone3-back-li-p-more:hover{
+     text-decoration: underline;
+ }
+ /* phone4 */
+ .realme-phone4{
+     display: inline-block;
+     width: 22.4% ;
+     position: relative;
+     transform-style: preserve-3d;
+     transition: all 2s;
+     height: 500px;
+ }
+ .realme-phone4-front{
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+     backface-visibility: hidden;
+     height: 100%;
+     background-color: rgb(244, 244, 244);
+     height: 100%;
+     border: 2px solid skyblue;
+ }
+ .realme-phone4-front-img{
+     width: 90%;
+     height: 80%;
+     margin: auto;
+     margin-top: 20px;
+ }
+ .realme-phone4-img{
+     width: 100%;
+     height: 100%;
+ }
+ .realme-phone4-front-detl{
+     text-align: center;
+     height: 10%;
+     
+ }
+ .realme-phone4-front-detl p{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .realme-phone4-back{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border: 2px solid skyblue;
+     transform: rotateY(180deg);
+     background-color: rgb(244, 244, 244);
+ }
+ .realme-phone4:hover{
+     transform: rotateY(180deg);
+ }
+ .realme-phone4-back-body {
+     list-style: none;
+     padding: 10px;
+ }
+ .realme-phone4-back-body li{
+     height: fit-content;
+     margin-bottom: 10px;
+ }
+ .realme-phone4-back-li-h2{
+     font-size: 15px;
+ }
+ .realme-phone4-back-li-h2,.realme-phone4-back-li-p{
+     display:inline-block;
+ }
+ .realme-phone4-back-li-p{
+     font-size: 14px;
+ }
+ .realme-phone4-back-li-p-more{
+     font-size: 25px;
+     font-weight: bold;
+     cursor: pointer;
+     color: blue;
+ }
+ .realme-phone4-back-li-p-more:hover{
+     text-decoration: underline;
+ }
+ /* /////////////////////////////////////////////////////////////////////////////////////////////////////// */
+ .main-oppo{
+    margin: 0 20px;
+    margin-bottom: 50px;
+ }
+ .main-oppo-header{
+     width: 100%;
+     overflow: hidden; 
+ }
+ .oppo-logo{
+     float: left;
+     margin-right: 80px;
+     width: 120px;
+     height: 120px;
+ }
+ .oppo-phones-p{
+     font-size: 30px;
+     font-weight: bold;
+     margin-top: 45px;
+     float: left;
+ }
+ 
+ .oppo-phones{
+     margin: 0 30px;
+ }
+ /* oppo-phone1 */
+ .oppo-phone1{
+     display: inline-block;
+     margin-right: 2%;
+     width: 23.5% ;
+     position: relative;
+     transform-style: preserve-3d;
+     transition: all 2s;
+     height: 500px;
+ }
+ .oppo-phone1-front{
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+     backface-visibility: hidden;
+     height: 100%;
+     background-color: rgb(244, 244, 244);
+     height: 100%;
+     border: 2px solid skyblue;
+ }
+ .oppo-phone1-front-img{
+     width: 90%;
+     height: 80%;
+     margin: auto;
+     margin-top: 20px;
+ }
+ .oppo-phone1-img{
+     width: 100%;
+     height: 100%;
+ }
+ .oppo-phone1-front-detl{
+     text-align: center;
+     height: 10%;
+ }
+ .oppo-phone1-front-detl p{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .oppo-phone1-back{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border: 2px solid skyblue;
+     transform: rotateY(180deg);
+     background-color: rgb(244, 244, 244);
+ }
+ .oppo-phone1:hover{
+     transform: rotateY(180deg);
+ }
+ .oppo-phone1-back-body {
+     list-style: none;
+     padding: 10px;
+ }
+ .oppo-phone1-back-body li{
+     height: fit-content;
+     margin-bottom: 10px;
+ }
+ .oppo-phone1-back-li-h2{
+     font-size: 15px;
+ }
+ .oppo-phone1-back-li-h2,.oppo-phone1-back-li-p{
+     display:inline-block;
+ }
+ .oppo-phone1-back-li-p{
+     font-size: 14px;
+ }
+ .oppo-phone1-back-li-p-more{
+     font-size: 25px;
+     font-weight: bold;
+     cursor: pointer;
+     color: blue;
+ }
+ .oppo-phone1-back-li-p-more:hover{
+     text-decoration: underline;
+ }
+ /* phine2 */
+ .oppo-phone2{
+     display: inline-block;
+     margin-right: 2%;
+     width: 23.5% ;
+     position: relative;
+     transform-style: preserve-3d;
+     transition: all 2s;
+     height: 500px;
+ }
+ .oppo-phone2-front{
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+     backface-visibility: hidden;
+     height: 100%;
+     background-color: rgb(244, 244, 244);
+     height: 100%;
+     border: 2px solid skyblue;
+ }
+ .oppo-phone2-front-img{
+     width: 90%;
+     height: 80%;
+     margin: auto;
+     margin-top: 20px;
+ }
+ .oppo-phone2-img{
+     width: 100%;
+     height: 100%;
+ }
+ .oppo-phone2-front-detl{
+     text-align: center;
+     height: 10%;
+     margin-top: 0px;
+ }
+ .oppo-phone2-front-detl p{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .oppo-phone2-back{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border: 2px solid skyblue;
+     transform: rotateY(180deg);
+     background-color: rgb(244, 244, 244);
+ }
+ .oppo-phone2:hover{
+     transform: rotateY(180deg);
+ }
+ .oppo-phone2-back-body {
+     list-style: none;
+     padding: 10px;
+ }
+ .oppo-phone2-back-body li{
+     height: fit-content;
+     margin-bottom: 10px;
+ }
+ .oppo-phone2-back-li-h2{
+     font-size: 15px;
+ }
+ .oppo-phone2-back-li-h2,.oppo-phone2-back-li-p{
+     display:inline-block;
+ }
+ .oppo-phone2-back-li-p{
+     font-size: 14px;
+ }
+ .oppo-phone2-back-li-p-more{
+     font-size: 25px;
+     font-weight: bold;
+     cursor: pointer;
+     color: blue;
+ }
+ .oppo-phone2-back-li-p-more:hover{
+     text-decoration: underline;
+ }
+ /* phone3 */
+ .oppo-phone3{
+     display: inline-block;
+     margin-right: 2%;
+     width: 23.5% ;
+     position: relative;
+     transform-style: preserve-3d;
+     transition: all 2s;
+     height: 500px;
+ }
+ .oppo-phone3-front{
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+     backface-visibility: hidden;
+     height: 100%;
+     background-color: rgb(244, 244, 244);
+     height: 100%;
+     border: 2px solid skyblue;
+ }
+ .oppo-phone3-front-img{
+     width: 90%;
+     height: 80%;
+     margin: auto;
+     margin-top: 20px;
+ }
+ .oppo-phone3-img{
+     width: 100%;
+     height: 100%;
+ }
+ .oppo-phone3-front-detl{
+     text-align: center;
+     height: 10%;
+    
+ }
+ .oppo-phone3-front-detl p{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .oppo-phone3-back{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border: 2px solid skyblue;
+     transform: rotateY(180deg);
+     background-color: rgb(244, 244, 244);
+ }
+ .oppo-phone3:hover{
+     transform: rotateY(180deg);
+ }
+ .oppo-phone3-back-body {
+     list-style: none;
+     padding: 10px;
+ }
+ .oppo-phone3-back-body li{
+     height: fit-content;
+     margin-bottom: 10px;
+ }
+ .oppo-phone3-back-li-h2{
+     font-size: 15px;
+ }
+ .oppo-phone3-back-li-h2,.oppo-phone3-back-li-p{
+     display:inline-block;
+ }
+ .oppo-phone3-back-li-p{
+     font-size: 14px;
+ }
+ .oppo-phone3-back-li-p-more{
+     font-size: 25px;
+     font-weight: bold;
+     cursor: pointer;
+     color: blue;
+ }
+ .oppo-phone3-back-li-p-more:hover{
+     text-decoration: underline;
+ }
+ /* phone4 */
+ .oppo-phone4{
+     display: inline-block;
+     width: 22.4% ;
+     position: relative;
+     transform-style: preserve-3d;
+     transition: all 2s;
+     height: 500px;
+ }
+ .oppo-phone4-front{
+     position: absolute;
+     z-index: 1;
+     width: 100%;
+     backface-visibility: hidden;
+     height: 100%;
+     background-color: rgb(244, 244, 244);
+     height: 100%;
+     border: 2px solid skyblue;
+ }
+ .oppo-phone4-front-img{
+     width: 90%;
+     height: 80%;
+     margin: auto;
+     margin-top: 20px;
+ }
+ .oppo-phone4-img{
+     width: 100%;
+     height: 100%;
+ }
+ .oppo-phone4-front-detl{
+     text-align: center;
+     height: 10%;
+     margin-top: 0px;
+ }
+ .oppo-phone4-front-detl p{
+     font-size: 20px;
+     font-weight: bold;
+ }
+ .oppo-phone4-back{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border: 2px solid skyblue;
+     transform: rotateY(180deg);
+     background-color: rgb(244, 244, 244);
+ }
+ .oppo-phone4:hover{
+     transform: rotateY(180deg);
+ }
+ .oppo-phone4-back-body {
+     list-style: none;
+     padding: 10px;
+ }
+ .oppo-phone4-back-body li{
+     height: fit-content;
+     margin-bottom: 10px;
+ }
+ .oppo-phone4-back-li-h2{
+     font-size: 15px;
+ }
+ .oppo-phone4-back-li-h2,.oppo-phone4-back-li-p{
+     display:inline-block;
+ }
+ .oppo-phone4-back-li-p{
+     font-size: 14px;
+ }
+ .oppo-phone4-back-li-p-more{
+     font-size: 25px;
+     font-weight: bold;
+     cursor: pointer;
+     color: blue;
+ }
+ .oppo-phone4-back-li-p-more:hover{
+     text-decoration: underline;
+ }
+
+.total-price{
+    margin: auto;
+    text-align: center;
+}
